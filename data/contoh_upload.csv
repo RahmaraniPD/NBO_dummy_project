@@ -1,0 +1,51 @@
+customer_id,nama,no_whatsapp,usia,jenis_kelamin,kota,pekerjaan,penghasilan_bulanan_juta,produk_terakhir,jumlah_produk_dimiliki,lama_jadi_customer_bulan,riwayat_telat_bayar,buka_app_30hari,sisa_cicilan_bulan,rasio_cicilan_penghasilan
+CUST00001,Citra Lestari,6281262510xxx,36,Perempuan,Surabaya,Karyawan,13.2,Dana Tunai Agunan,3,58,1,6,21,0.49
+CUST00002,Rudi Saputra,6281261272xxx,31,Laki-laki,Semarang,Karyawan,23.1,Motor Baru,2,44,0,2,28,0.14
+CUST00003,Citra Siregar,6281215455xxx,30,Laki-laki,Bandung,Karyawan,15.6,Motor Baru,2,65,0,5,11,0.37
+CUST00004,Rudi Nugroho,6281243865xxx,33,Perempuan,Medan,Karyawan,10.4,Dana Tunai Agunan,1,58,1,6,1,0.29
+CUST00005,Yoga Saputra,6281298499xxx,35,Laki-laki,Surabaya,Karyawan,10.0,Mobil Bekas,1,62,0,4,33,0.48
+CUST00006,Dewi Setiawan,6281246985xxx,25,Laki-laki,Surabaya,Karyawan,16.1,Elektronik,4,80,0,6,30,0.42
+CUST00007,Maya Permana,6281229198xxx,48,Laki-laki,Jakarta,Ibu Rumah Tangga,18.4,Elektronik,3,51,0,7,25,0.37
+CUST00008,Sari Nugroho,6281231554xxx,42,Laki-laki,Medan,Wiraswasta,20.1,Dana Tunai Agunan,2,70,1,2,26,0.35
+CUST00009,Nadia Firmansyah,6281274203xxx,53,Laki-laki,Semarang,Profesional,10.7,Motor Baru,1,36,0,8,10,0.49
+CUST00010,Citra Firmansyah,6281213425xxx,48,Laki-laki,Jakarta,Karyawan,13.3,Motor Baru,2,90,2,6,28,0.34
+CUST00011,Maya Hidayat,6281297247xxx,26,Laki-laki,Bandung,Karyawan,16.3,Dana Tunai Agunan,2,40,1,7,35,0.31
+CUST00012,Rina Permana,6281288859xxx,23,Perempuan,Jakarta,Ibu Rumah Tangga,10.1,Motor Baru,1,66,0,8,10,0.11
+CUST00013,Agus Kusuma,6281261077xxx,37,Laki-laki,Jakarta,Karyawan,6.9,Elektronik,3,95,0,6,17,0.23
+CUST00014,Putri Permana,6281252095xxx,39,Perempuan,Makassar,Wiraswasta,8.1,Elektronik,3,35,2,12,30,0.28
+CUST00015,Ayu Hidayat,6281278529xxx,30,Perempuan,Surabaya,Ibu Rumah Tangga,10.8,Mobil Bekas,4,12,3,5,7,0.39
+CUST00016,Galih Rahmawati,6281259287xxx,51,Perempuan,Bandung,Wiraswasta,17.0,Elektronik,2,24,0,5,24,0.44
+CUST00017,Siti Lestari,6281252946xxx,43,Perempuan,Jakarta,Karyawan,22.9,Dana Tunai Agunan,2,25,2,5,1,0.58
+CUST00018,Eko Hakim,6281238994xxx,50,Laki-laki,Makassar,Wiraswasta,6.2,Motor Baru,4,8,1,6,34,0.24
+CUST00019,Nadia Purnama,6281250206xxx,25,Laki-laki,Jakarta,Karyawan,9.0,Elektronik,2,53,1,5,2,0.37
+CUST00020,Galih Setiawan,6281277619xxx,52,Laki-laki,Medan,Karyawan,10.2,Elektronik,3,28,0,3,0,0.48
+CUST00021,Putri Setiawan,6281214958xxx,29,Perempuan,Jakarta,Karyawan,18.1,Motor Baru,3,12,0,2,14,0.26
+CUST00022,Dimas Hidayat,6281212267xxx,38,Perempuan,Jakarta,Profesional,9.4,Dana Tunai Agunan,4,15,0,6,28,0.37
+CUST00023,Nur Hidayat,6281274835xxx,38,Perempuan,Medan,Wiraswasta,9.8,Mobil Bekas,2,28,0,4,7,0.31
+CUST00024,Intan Purnama,6281243496xxx,53,Laki-laki,Jakarta,Karyawan,6.0,Motor Baru,3,37,2,4,22,0.3
+CUST00025,Sari Purnama,6281282335xxx,31,Laki-laki,Medan,Karyawan,15.5,Dana Tunai Agunan,1,93,0,9,12,0.13
+CUST00026,Dewi Santoso,6281212731xxx,30,Perempuan,Jakarta,Wiraswasta,11.2,Dana Tunai Agunan,4,68,0,4,35,0.11
+CUST00027,Rudi Firmansyah,6281291648xxx,34,Perempuan,Medan,Ibu Rumah Tangga,8.8,Motor Baru,1,69,0,6,17,0.25
+CUST00028,Andi Permana,6281221060xxx,35,Perempuan,Semarang,Karyawan,10.7,Elektronik,3,67,0,6,15,0.56
+CUST00029,Siti Utami,6281247422xxx,28,Laki-laki,Medan,Karyawan,21.4,Motor Baru,1,77,2,7,0,0.2
+CUST00030,Dewi Ramadhan,6281297043xxx,27,Laki-laki,Jakarta,Profesional,7.4,Motor Baru,2,32,2,8,10,0.13
+CUST00031,Bayu Handayani,6281219765xxx,30,Laki-laki,Medan,Profesional,8.0,Motor Baru,1,12,0,8,0,0.41
+CUST00032,Citra Ramadhan,6281269198xxx,39,Perempuan,Makassar,Ibu Rumah Tangga,22.8,Dana Tunai Agunan,3,50,0,1,31,0.58
+CUST00033,Galih Santoso,6281275509xxx,34,Laki-laki,Jakarta,Karyawan,12.7,Motor Baru,2,3,0,3,17,0.13
+CUST00034,Dimas Firmansyah,6281248539xxx,36,Perempuan,Jakarta,Karyawan,17.0,Motor Baru,3,23,1,12,11,0.47
+CUST00035,Galih Susanto,6281217112xxx,49,Laki-laki,Semarang,Karyawan,14.9,Elektronik,2,73,1,9,8,0.15
+CUST00036,Dian Wijaya,6281257136xxx,30,Laki-laki,Jakarta,Karyawan,12.0,Mobil Bekas,1,49,0,7,25,0.17
+CUST00037,Taufik Kusuma,6281249001xxx,56,Laki-laki,Medan,Profesional,10.2,Motor Baru,3,67,1,4,23,0.57
+CUST00038,Bayu Ramadhan,6281288552xxx,50,Perempuan,Semarang,Karyawan,18.5,Motor Baru,3,50,1,5,11,0.45
+CUST00039,Wulan Saputra,6281271405xxx,27,Perempuan,Jakarta,Wiraswasta,21.8,Elektronik,3,53,0,9,10,0.38
+CUST00040,Dimas Kusuma,6281240978xxx,33,Perempuan,Surabaya,Ibu Rumah Tangga,20.9,Elektronik,2,31,0,5,34,0.18
+CUST00041,Maya Santoso,6281215223xxx,28,Perempuan,Surabaya,Ibu Rumah Tangga,6.7,Elektronik,3,23,1,8,2,0.38
+CUST00042,Nadia Wibowo,6281263126xxx,31,Laki-laki,Bandung,Wiraswasta,23.4,Motor Baru,3,27,1,10,18,0.13
+CUST00043,Irfan Santoso,6281235163xxx,35,Laki-laki,Semarang,Ibu Rumah Tangga,10.2,Mobil Bekas,1,77,1,3,34,0.3
+CUST00044,Dian Permana,6281271531xxx,26,Perempuan,Jakarta,Karyawan,8.4,Elektronik,1,94,1,4,11,0.45
+CUST00045,Dian Wibowo,6281287743xxx,21,Laki-laki,Bandung,Karyawan,11.2,Motor Baru,2,10,0,5,2,0.38
+CUST00046,Hendra Purnama,6281241987xxx,38,Laki-laki,Semarang,Karyawan,18.5,Motor Baru,1,52,2,7,29,0.44
+CUST00047,Intan Wibowo,6281291303xxx,48,Perempuan,Jakarta,Ibu Rumah Tangga,16.0,Motor Baru,3,46,0,8,32,0.16
+CUST00048,Rudi Permana,6281256718xxx,32,Perempuan,Semarang,Ibu Rumah Tangga,10.7,Motor Baru,1,55,0,2,2,0.48
+CUST00049,Dian Santoso,6281257774xxx,54,Laki-laki,Jakarta,Karyawan,18.5,Motor Baru,1,24,1,7,13,0.58
+CUST00050,Yoga Hakim,6281278872xxx,35,Perempuan,Surabaya,Karyawan,13.1,Dana Tunai Agunan,1,3,0,9,3,0.55

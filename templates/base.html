@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Next Best Offer - Agen</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header><a href="{{ url_for('index') }}">Next Best Offer Assistant</a></header>
+  <main>
+    {% with pesan_flash = get_flashed_messages(with_categories=true) %}
+      {% for kategori, isi in pesan_flash %}
+        <div class="flash {{ kategori }}">{{ isi }}</div>
+      {% endfor %}
+    {% endwith %}
+    {% block isi %}{% endblock %}
+  </main>
+</body>
+</html>

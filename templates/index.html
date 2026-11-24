@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block isi %}
+<div class="card">
+  <h1>Upload Data Pelanggan</h1>
+  <p>Pilih file CSV berisi data pelanggan yang akan Anda tawari produk.</p>
+  <form method="POST" enctype="multipart/form-data">
+    <input type="file" name="file_csv" accept=".csv" required>
+    <button class="btn" type="submit">Upload</button>
+  </form>
+</div>
+<div class="card">
+  <h2>Kolom yang wajib ada di file CSV</h2>
+  <p>{% for k in kolom %}<code>{{ k }}</code> {% endfor %}</p>
+  <p>Contoh file siap pakai: <code>data/contoh_upload.csv</code></p>
+</div>
+{% endblock %}

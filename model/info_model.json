@@ -1,0 +1,25 @@
+{
+  "fitur": [
+    "usia",
+    "penghasilan_bulanan_juta",
+    "jumlah_produk_dimiliki",
+    "lama_jadi_customer_bulan",
+    "riwayat_telat_bayar",
+    "buka_app_30hari",
+    "sisa_cicilan_bulan",
+    "rasio_cicilan_penghasilan",
+    "jenis_kelamin",
+    "kota",
+    "pekerjaan",
+    "produk_terakhir"
+  ],
+  "kelas": [
+    "Dana Tunai Agunan",
+    "Elektronik",
+    "Mobil Bekas",
+    "Motor Baru"
+  ],
+  "model": "Gradient Boosting",
+  "accuracy": 0.652,
+  "f1_macro": 0.589
+}

@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block isi %}
+<div class="grid">
+  <div class="card">
+    <h2>Profil Pelanggan</h2>
+    <table>
+      <tr><th>Nama</th><td>{{ p.nama }} ({{ p.customer_id }})</td></tr>
+      <tr><th>Usia</th><td>{{ p.usia }}</td></tr>
+      <tr><th>Pekerjaan</th><td>{{ p.pekerjaan }}</td></tr>
+      <tr><th>Kota</th><td>{{ p.kota }}</td></tr>
+      <tr><th>Penghasilan</th><td>{{ p.penghasilan_bulanan_juta }} juta / bulan</td></tr>
+      <tr><th>Produk terakhir</th><td>{{ p.produk_terakhir }}</td></tr>
+      <tr><th>Jumlah produk</th><td>{{ p.jumlah_produk_dimiliki }}</td></tr>
+      <tr><th>Lama jadi customer</th><td>{{ p.lama_jadi_customer_bulan }} bulan</td></tr>
+      <tr><th>Telat bayar</th><td>{{ p.riwayat_telat_bayar }} kali</td></tr>
+      <tr><th>Buka app (30 hari)</th><td>{{ p.buka_app_30hari }} kali</td></tr>
+      <tr><th>Sisa cicilan</th><td>{{ p.sisa_cicilan_bulan }} bulan</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Hasil Prediksi</h2>
+    <div class="nbo-box">
+      Next Best Offer<br>
+      <span class="produk">{{ nbo }}</span>
+    </div>
+    <table>
+      {% for h in hasil %}
+      <tr>
+        <td style="width:40%">{{ h.produk }}</td>
+        <td><div class="bar-wrap"><div class="bar" style="width: {{ h.persen }}%"></div></div></td>
+        <td style="width:60px; text-align:right">{{ h.persen }}%</td>
+      </tr>
+      {% endfor %}
+    </table>
+
+    <h3>Pesan WhatsApp</h3>
+    <div class="pesan">{{ pesan }}</div>
+    <a class="btn btn-wa" href="{{ link_wa }}" target="_blank">Hubungi Pelanggan</a>
+    <a class="btn btn-abu" href="{{ url_for('daftar') }}">&laquo; Kembali</a>
+  </div>
+</div>
+{% endblock %}

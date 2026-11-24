@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block isi %}
+<div class="card">
+  <h1>Daftar Pelanggan ({{ total }})</h1>
+  <table>
+    <tr>
+      <th>ID</th><th>Nama</th><th>Usia</th><th>Pekerjaan</th><th>Kota</th>
+      <th>Penghasilan (juta)</th><th>Produk Terakhir</th><th>Aksi</th>
+    </tr>
+    {% for b in baris %}
+    <tr>
+      <td>{{ b.customer_id }}</td>
+      <td>{{ b.nama }}</td>
+      <td>{{ b.usia }}</td>
+      <td>{{ b.pekerjaan }}</td>
+      <td>{{ b.kota }}</td>
+      <td>{{ b.penghasilan_bulanan_juta }}</td>
+      <td>{{ b.produk_terakhir }}</td>
+      <td><a class="btn" href="{{ url_for('predict', idx=b.idx) }}">Predict</a></td>
+    </tr>
+    {% endfor %}
+  </table>
+  <div class="paging">
+    {% if halaman > 1 %}<a class="btn btn-abu" href="{{ url_for('daftar', page=halaman-1) }}">&laquo; Sebelumnya</a>{% endif %}
+    <span>Halaman {{ halaman }} dari {{ total_halaman }}</span>
+    {% if halaman < total_halaman %}<a class="btn btn-abu" href="{{ url_for('daftar', page=halaman+1) }}">Berikutnya &raquo;</a>{% endif %}
+  </div>
+</div>
+{% endblock %}
