@@ -50,6 +50,10 @@ python app.py
 ```
 Buka http://127.0.0.1:5000 lalu upload `data/contoh_upload.csv`.
 
+## Screenshot
+<img width="1609" height="629" alt="image" src="https://github.com/user-attachments/assets/38c1789a-68c4-4d61-8f10-e6c9ea5c047f" />
+<img width="1604" height="676" alt="image" src="https://github.com/user-attachments/assets/ac56105d-e935-45be-a4c4-5520a217ae17" />
+<img width="1603" height="839" alt="image" src="https://github.com/user-attachments/assets/92baac53-db73-447c-9da9-184d733c3df7" />
 
 ## Pengembangan Berikutnya
 - Prediksi massal dengan hasil yang bisa diunduh
